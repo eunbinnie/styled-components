@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 import { Inter } from 'next/font/google'
 import styled from 'styled-components'
 
@@ -21,8 +22,13 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <Header>
-        <List>Home</List>
-        <List>About</List>
+        <Link href="/">
+          <List>Home</List>
+        </Link>
+        
+        <Link href="/about">
+          <List>About</List>
+        </Link>
       </Header>
       
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">

@@ -4,12 +4,13 @@ const Text = styled.h1`
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+    background-color: #fff;
 `;
 
 export default function About() {
     return (
         <>
-            <Text>내가 해.냈.다.</Text>
+            <Text>About Page</Text>
         </>
     )
 }
