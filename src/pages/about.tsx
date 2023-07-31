@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Header from '@/components/Header';
 
 const Text = styled.h1`
     font-size: 32px;
