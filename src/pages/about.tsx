@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Header from '@/components/Header';
+import { menuArray } from '@/data/data';
 
 const Text = styled.h1`
     font-size: 32px;
@@ -8,10 +9,13 @@ const Text = styled.h1`
     background-color: #fff;
 `;
 
-export default function About() {
+const About = () => {
     return (
         <>
+            <Header menuArray = {menuArray}/>
             <Text>About Page</Text>
         </>
     )
 }
+
+export default About;

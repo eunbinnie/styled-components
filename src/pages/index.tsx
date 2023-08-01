@@ -3,10 +3,11 @@ import Link from 'next/link';
 import { Inter } from 'next/font/google'
 import styled from 'styled-components'
 import Header from '../components/Header';
+import { menuArray } from '@/data/data';
 
 const inter = Inter({ subsets: ['latin'] })
 
-const menuArray = ["Home", "about"];
+
 
 export default function Home() {
   return (
